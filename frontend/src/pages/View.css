@@ -1,0 +1,67 @@
+/* View.css - styles for the View page derived from viewstyle.css */
+/* View.css - styles for the View page derived from viewstyle.css */
+.container.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.task-badge {
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(30,90,150,0.08);
+}
+
+.table-responsive { overflow-x: auto; width:100%; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 700;
+  color: #1e5a96;
+  background: #f0f4f8;
+  border-bottom: 2px solid #1e5a96;
+}
+
+.table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Dashboard wrapper for full-bleed layout */
+.dashboard-wrapper {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.dashboard-wrapper .card {
+  width: 100%;
+  max-width: none;
+}
+
+.dashboard-wrapper .card .card-body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.footer-row { display:flex; gap: 1rem; }
+.footer-col { flex:1; }
+.footer-title { font-weight:700; color: #1e5a96; }
+.footer-text { color:#666; }

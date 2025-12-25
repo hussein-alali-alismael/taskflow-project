@@ -1,0 +1,161 @@
+*{
+  color: #000;
+}
+.container.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.texth {
+  color: #1e5a96;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 25px rgba(30, 90, 150, 0.15);
+}
+
+.card-header h5 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  padding: 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  color: #1e5a96;
+  background: #f0f4f8;
+  border-bottom: 2px solid #1e5a96;
+}
+
+.table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Dashboard wrapper to allow full-bleed layout while keeping inner padding */
+.dashboard-wrapper {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Let cards and tables expand naturally in wide viewports */
+.dashboard-wrapper .card {
+  width: 100%;
+  max-width: none;
+}
+
+.dashboard-wrapper .card .card-body {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.table-hover tbody tr:hover {
+  background: rgba(30, 90, 150, 0.08);
+}
+
+.badge {
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.badge.bg-danger {
+  background: #dc3545;
+  color: white;
+}
+
+.badge.bg-secondary {
+  background: #6c757d;
+  color: white;
+}
+
+.badge.bg-success {
+  background: #28a745;
+  color: white;
+}
+
+.badge.bg-warning {
+  background: #ffc107;
+  color: #000;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-primary {
+  border: 2px solid #1e5a96;
+  color: #1e5a96;
+  background: transparent;
+}
+
+.btn-outline-primary:hover {
+  background: #1e5a96;
+  color: white;
+}
+
+.btn-outline-danger {
+  border: 2px solid #dc3545;
+  color: #dc3545;
+  background: transparent;
+}
+
+.btn-outline-danger:hover {
+  background: #dc3545;
+  color: white;
+}
+
+.me-2 {
+  margin-right: 0.5rem;
+}
+
+.footer-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-col {
+  flex: 1;
+}
+
+.footer-title {
+  font-weight: 700;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .card { margin-bottom: 1rem; }
+}
